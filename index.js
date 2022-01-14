@@ -81,10 +81,10 @@ async function Deleta(indice) {
     
     app.get('/id/:userId/name/:newname/rg/:newrg/dt/:newdt',
     async function(req,res){        
-        // id => indice procurado  => 1
-        // name => Novo valor para nome => cabra
-        // rg => Novo valor para rg => 111
-        // dt => Novo valor para dtnasc => 111
+        // UserId => indice procurado  => 1
+        // newname => Novo valor para nome => cabra
+        // newrg => Novo valor para rg => 111
+        // newdt => Novo valor para dtnasc => 111
         // =====================================
    
         const { userId, newname, newrg, newdt } = req.params;
